@@ -1,0 +1,27 @@
+seed: 42
+
+dataset:
+  entities: 400
+  wallets_per_entity: 4
+  peers: 100
+  transactions: 4000
+  start_date: "2024-01-01"
+  end_date: "2024-01-31"
+  missing_data_prob: 0.05
+
+scenarios:
+  normal_ratio: 0.80
+  peeling_ratio: 0.08
+  layering_ratio: 0.06
+  risk_propagation_ratio: 0.06
+
+risk:
+  anomaly_weight: 0.25
+  classifier_weight: 0.35
+  rule_weight: 0.25
+  correlation_weight: 0.15
+
+risk_thresholds:
+  critical: 90
+  high: 70
+  medium: 40
