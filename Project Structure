@@ -1,0 +1,14 @@
+CRYPTOZEN/
+├── config.yaml
+├── requirements.txt
+├── app.py
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── generator.py
+│   ├── graph_engine.py
+│   └── ml_engine.py
+└── ui/
+    ├── __init__.py
+    ├── theme.py
+    └── pages.py
